@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    background: #353535;
+    font-family: system-ui, sans-serif;
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+}
+
+.followCards{
+    background: #222;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    box-shadow: 0 0 6px #000;
+    border-radius: 6px;
+}
